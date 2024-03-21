@@ -1,0 +1,52 @@
+.popular {
+    background: white;
+    padding: 10px 0;
+}
+.popular-women-title {
+    text-align: center;
+    margin-top: 60px;
+}
+.popular-women-underline {
+    width: 80px;
+    height: 4px;
+    background: black;
+    margin: 2px auto;
+}
+.popular-women-products {
+    display: flex;
+    padding: 20px 70px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-item {
+    width: 200px;
+    margin: 7px;
+}
+.product-item img {
+    width: 100%;
+}
+.product-item .product-name {
+    font-weight: bold;
+    font-size: 12px;
+}
+.product-item .prices{
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+.product-item .prices .new-price {
+    font-weight: bold;
+}
+.product-item .prices .old-price {
+    text-decoration: line-through;
+}
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.1); 
+}
+
+

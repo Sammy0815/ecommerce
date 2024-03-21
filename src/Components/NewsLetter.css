@@ -1,0 +1,28 @@
+.newsletter {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #ffe066, #e1ffea22 50%);
+    margin: 50px auto;
+    padding: 40px 40px;
+    gap: 10px;
+}
+.newsletter form {
+    display: flex;
+    gap: 5px;
+}
+.newsletter form input {
+    width: 260px;
+    outline: none;
+    border: none;
+    background: white;
+    box-shadow: 0 .1px 0px .1px black;
+    padding: 0 5px;
+}
+.newsletter form button {
+    background: black;
+    border-radius: 6px;
+    color: white;
+}

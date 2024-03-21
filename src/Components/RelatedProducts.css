@@ -1,0 +1,19 @@
+.related-products {
+    margin-top: 40px;
+}
+.related-products h2 {
+    text-align: center;
+}
+.related-underline {
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+}
+.related-products-items {
+    display: flex;
+    padding: 20px 70px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

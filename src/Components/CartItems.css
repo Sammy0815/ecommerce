@@ -1,0 +1,88 @@
+.cart-items {
+    padding: 40px;
+}
+.cart-table {
+    width: 100%;
+}
+
+.cart-item-image {
+    width: 40px;
+}
+.cart-table .title {
+    width: 300px;
+}
+.cart-table th, td {
+    padding: 3px 10px;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+}
+tr:hover {
+    background-color: grey;
+    color: white;
+}
+.cart-table thead {
+    text-align: left;
+}
+.cart-table .remove {
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+.cart-totals {
+    margin-top: 50px;
+    display: flex;
+    gap: 60px;
+}
+.cart-totals-left {
+    flex: 1;
+}
+.cart-totals-left h3 {
+    margin-bottom: 10px;
+}
+.cart-totals-left table {
+    width: 90%;
+    text-align: left;
+}
+.cart-totals-left table td {
+    padding: 8px 0;
+}
+.cart-totals-left table .total-row {
+    font-weight: bold;
+}
+.cart-totals-right {
+    flex: 1;
+}
+.cart-totals-right p {
+    margin: 5px 0;
+}
+.cart-totals-right input {
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #d6d6c2;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+.cart-totals-right .submitBtn {
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.cart-totals-left .proceedBtn {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

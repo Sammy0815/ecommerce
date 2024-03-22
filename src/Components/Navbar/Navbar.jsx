@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import './NavbarMobile.css'
 import logo from '../Assets/logo.png'
 import navbar_logo from '../Assets/mobile_nav_icon.png'
 import cart_icon from '../Assets/cart_icon.png'
@@ -16,8 +17,8 @@ export default function Navbar() {
     return (
         <div className="navbar">
             <div className='nav-logo'> 
-                <img className='navbar-logo-img' src={navbar_logo} alt=''/>
-                <img src={logo} alt=''/>
+                <img className='mobile-menu-icon' src={navbar_logo} alt=''/>
+                <img className='logo-img' src={logo} alt=''/>
                 <h2>SHEKINAH STORES</h2>  
             </div>
             <ul>

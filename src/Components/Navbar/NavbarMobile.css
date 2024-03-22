@@ -1,0 +1,26 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 500px) {
+    .navbar-mobile {
+        width: 0px;
+        height: 0px;
+        background: #ffcc00;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 0 0 300px 0;
+        
+    }
+    .navbar ul {
+        display: none;
+    }
+    .nav-logo h2 {
+        font-size: 14px;
+    }
+    .nav-logo logo-img {
+        width: 20px;
+        height: 20px;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+}

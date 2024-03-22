@@ -11,13 +11,14 @@ import { useContext } from 'react'
 
 export default function Navbar() {
     const { useState } = React;
+    const [navActive, setNavActive] = useState(false)
     const [menu, setMenu] = useState("");
     const { cartButton } = useContext(ShopContext)
     
     return (
         <div className="navbar">
             <div className='nav-logo'> 
-                <img className='mobile-menu-icon' src={navbar_logo} alt=''/>
+                <img className='mobile-menu-icon' src={navbar_logo} alt='' onClick={()=>setNavActive(true)}/>
                 <img className='logo-img' src={logo} alt=''/>
                 <h2>SHEKINAH STORES</h2>  
             </div>
@@ -36,8 +37,8 @@ export default function Navbar() {
                 <Link to='/cart'><div className="nav-cart-count"> 0</div></Link>
             </div>
             
-            <div className='navbar-mobile'>
-                
+            <div className={navActive ? 'navbar-mobile show-nav' : 'navbar-mobile'}>
+                <div className={!navActive ? 'close-nav hide-nav' : 'close-nav'} onClick={()=>setNavActive(false)}>x</div>
             </div>
 
         </div>

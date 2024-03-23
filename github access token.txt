@@ -1,9 +1,0 @@
-My github access token
-
-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
-
-git push -u -f origin master
-git5 init
-git status
-git add . (to track)
-git commit -m "committing all files to the repository"
